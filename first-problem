@@ -1,0 +1,14 @@
+const Output = (array, target) => {
+    var list = []
+
+for (var i=0; i<array.length; i++){
+    array.map((item) => {
+    if(array[i]==item);
+    else if(array[i]+item == target){
+        list.push([i,array.indexOf(item)])
+        }
+    })
+}
+var result = list[0]
+console.log(result)
+}

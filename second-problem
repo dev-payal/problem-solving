@@ -1,0 +1,16 @@
+var nums = [9,6,4,2,3,5,7,0,1]
+const findOutput = (array) => {
+    var length =array.length
+    var output = []
+    for(i=0; i<=length; i++){
+        if(!(array.includes(i))){
+            output.push(i)
+    }
+    }
+    console.log(output)
+}
+
+findOutput(nums)
+
+
+// Time Complexity = O(n^2)

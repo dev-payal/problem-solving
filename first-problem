@@ -12,3 +12,5 @@ for (var i=0; i<array.length; i++){
 var result = list[0]
 console.log(result)
 }
+
+// Time Complexity = O(2n^2)
